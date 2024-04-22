@@ -1,0 +1,420 @@
+/*laptop*/
+@media screen and  (min-width:800px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+        width: 60%;
+        height: 526px;
+        display: flex;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 11%;
+    }
+    
+    svg{
+        width: 164px;
+        height: 53px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 87%;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        margin-top: 16px;
+        border-radius: 20px;
+        height: 7%;
+        cursor: pointer;
+        width: 50%;
+        font-weight: bold;
+    }
+    
+    .name{
+        display: flex;
+        margin-top: -11px;
+    }
+    
+    .name input{
+        width: 40%;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 16px;
+        color: black;
+        border-radius: 20px;
+        padding: 6px;
+        padding-left: 13px;
+        padding-right: 7px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inputd{
+        width: 87%;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+}
+
+/*tablet*/
+@media screen and  (min-width:401px) and (max-width:799px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+        width: 91%;
+        height: 501px;
+        display: flex;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    
+    svg{
+        width: 154px;
+        height: 53px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 84%;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 11px;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        margin-top: 14px;
+        border-radius: 20px;
+        height: 6%;
+        cursor: pointer;
+        width: 50%;
+        font-weight: bold;
+    }
+    
+    .name{
+        display: flex;
+        margin-top: -11px;
+    }
+    
+    .name input{
+        width: 36%;
+        background: none;
+        outline: none;
+        font-size: 14px;
+        margin-top: 16px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 13px;
+        padding-right: 7px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inputd{
+        width: 84%;
+        background: none;
+        outline: none;
+        font-size: 14px;
+        margin-top: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*mobile*/
+@media screen and  (max-width:400px){
+    ::selection{
+        background-color: rgb(166, 28, 230);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+    width: 91%;
+    height: 367px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 14%;
+    }
+    
+    svg{
+        width: 144px;
+        height: 47px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 83%;
+        background: none;
+        outline: none;
+        font-size: 10px;
+        margin-top: 9px;
+        color: black;
+        border-radius: 20px;
+        padding: 4px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 14px;
+    border-radius: 20px;
+    height: 6%;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bold;
+    }
+    
+    .name{
+        display: flex;
+        margin-top: -20px;
+    }
+    
+    .name input{
+        width: 36%;
+    background: none;
+    outline: none;
+    font-size: 10px;
+    margin-top: 16px;
+    color: black;
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .inputd{
+        width: 84%;
+    background: none;
+    outline: none;
+    font-size: 10px;
+    margin-top: 11px;
+    color: black;
+    border-radius: 20px;
+    padding: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+}

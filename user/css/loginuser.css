@@ -1,0 +1,296 @@
+
+/*laptop*/
+@media screen and  (min-width:800px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+        width: 50%;
+        height: 437px;
+        display: flex;   
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 9%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 14%;
+    }
+    
+    svg{
+        width: 164px;
+        height: 53px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 57%;
+        background: none;
+        outline: none;
+        font-size: 18px;
+        margin-top: 16px;
+        color: black;
+        border-radius: 20px;
+        padding: 6px;
+        padding-left: 23px;
+        padding-right: 23px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        margin-top: 16px;
+        border-radius: 20px;
+        height: 8%;
+        cursor: pointer;
+        width: 50%;
+        font-weight: bold;
+    }
+
+}
+
+/*tablet*/
+@media screen and  (min-width:401px) and (max-width:799px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+        width: 69%;
+        height: 338px;
+        display: flex;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 9%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 14%;
+    }
+    
+    svg{
+        width: 164px;
+        height: 53px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 49%;
+        background: none;
+        outline: none;
+        font-size: 12px;
+        margin-top: 16px;
+        color: black;
+        border-radius: 20px;
+        padding: 6px;
+        padding-left: 23px;
+        padding-right: 23px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 16px;
+    border-radius: 20px;
+    height: 7%;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bold;
+    }
+
+}
+
+/*mobile*/
+@media screen and  (max-width:400px){
+    ::selection{
+        background-color: rgb(166, 28, 230);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #79638E;    
+    }
+    
+    .main{
+        background-color: white;
+    width: 85%;
+    height: 280px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+    
+    .left{
+        background-color: black;
+        height: 100%;
+        width: 30%;
+        border-right: 3px solid #79638E;
+    }
+    
+    .right{
+        background-color: white;
+        height: 100%;
+        width: 70%;
+    }
+    
+    img{
+        margin-top: 12%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 18%;
+    }
+    
+    svg{
+        width: 132px;
+        height: 27px;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 15px 0;
+        padding: 12px 18px;
+        width: 50%;
+    }
+    
+    .input{
+        width: 56%;
+        background: none;
+        outline: none;
+        font-size: 11px;
+        margin-top: 16px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 2px solid black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        margin-top: 16px;
+        border-radius: 20px;
+        height: 8%;
+        cursor: pointer;
+        width: 50%;
+        font-weight: bold;
+    }
+
+}

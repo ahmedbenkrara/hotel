@@ -1,0 +1,1238 @@
+           textarea::-webkit-scrollbar {
+              width: 0px; 
+           }
+
+
+       
+       /********************grid**********************/
+
+        .grid{
+            margin: 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+            grid-gap: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .grid article{
+            background-color: whitesmoke;
+            border: none;
+            box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%);
+            border-radius: 20px;
+            text-align: center;
+            transition: transform .3s;
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .grid article:hover{
+            transform:translateY(5px);
+            box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+        }
+        
+        .grid img
+        {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 100%;
+        }
+        
+        .text{
+            padding:0px 20px 20px;
+        }
+        
+        article .but{
+            background:black;
+            border-radius: 20px;
+            outline:none;
+            border: none;
+            color:#fff;
+            padding: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        article p{
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        
+
+
+/*laptop*/
+@media screen and  (min-width:800px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color: white;
+    }
+    
+    .left{
+        width: 20%;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+    }
+    
+    .right{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        margin-left: 20%;
+        text-align: center;
+    }
+    
+    .menu{
+        width: 59%;
+        background-color: white;
+        height: 96px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 19px;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: cursive;
+    }
+    
+    .menu:hover{
+        box-shadow: 0 0 20px white;
+    }
+    
+    .icon{
+        width:55px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        margin-bottom: 5px;
+    }
+    
+    .logout{
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 14%;
+        font-weight: bold;
+        color: white;
+        font-family: cursive;
+        margin-top: 132px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 8px;
+    }
+    
+    .out{
+        width: 35px;
+        height: auto;
+    }
+    
+    .logout p{
+        margin-left: 17px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .search{
+        display: flex;
+        background-color: white;
+        margin-top: 30px;
+    }
+    
+    
+    .input{
+        width: 18%;
+        background: none;
+        outline: none;
+        font-size: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        display: block;
+        float: right;
+        margin-right: 19px;
+    }
+    
+    
+    .btn{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 12%;
+        font-weight: bold;
+    }
+    
+    #from{
+        margin-left: 40%;
+    }
+    
+    .right h1{
+        font-family: cursive;
+        text-align: center;
+    }
+
+    /*****************details****************/
+    .cover{
+        width: 60%;
+        height: 306px;
+        margin-top: 21px;
+        margin-bottom: 20px;
+    }
+
+    .details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        text-align: left;
+        font-family: cursive;
+    }
+
+    .dleft{
+        width: 50%;
+        padding-left: 8px;
+        margin-bottom: 60px;
+    }
+
+    .dright{
+        width: 50%;
+        padding-left: 8px;
+    }
+
+    .Nperson{
+        width: 20%;
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .pay{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 40%;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    /********************add to cat********************/
+
+    #cate,#cate1,#cate2,#desc{
+        width: 53%;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        font-family: cursive;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+    }
+
+    #desc{
+        margin-top: 20px;
+        height: 200px;
+        font-size: 17px;
+    }
+
+    .center{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    #add{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 32px;
+        cursor: pointer;
+        width: 28%;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    /*******************addroom********************/
+    .room{
+        margin-top: 20px;
+    }
+    
+    #Rnumber,#Rprice,#Scat,#Sdes,#Samenties{
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 15px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        
+    }
+
+    #Rnumber,#Rprice{
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    #Scat{
+        width:46%;
+        margin-bottom: 20px;
+    }
+
+    #Sdes{
+        width: 44%;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    #Samenties{
+        width: 44%;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    #image{
+        outline:none;
+        border: none;
+    }
+
+    ::-webkit-file-upload-button{
+        color:white;
+        background:black;
+        outline:none;
+        border:none;
+        height:30px;
+        width:140px;
+        border-radius:20px;
+        cursor:pointer;
+        font-family: cursive;
+        margin-bottom: 10px;
+    }
+
+    input[type='radio']{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    input[type='radio']:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    input[type='radio']:checked:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgb(78, 6, 78);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    label{
+        font-size:15px;
+    }
+
+    #addroom{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 20%;
+        font-weight: bold;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
+    /*****************grid*******************/
+
+    .grid article{
+        width: 250px;
+    }
+
+    .grid img{
+        height: 10rem;
+    }
+
+    /****************pagination*****************/
+
+    .page{
+        text-decoration: none;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        margin-left: 6px;
+        padding-right: 12px;
+        padding-left: 12px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .pagination{
+        width: 100%;
+    }
+
+    /***************************************/
+    .edimg{
+        width: 108px;
+        height: 108px;
+    }
+
+    #sendpass{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 32px;
+        cursor: pointer;
+        width: 28%;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+}
+
+/*tablet*/
+@media screen and  (min-width:401px) and (max-width:799px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color: white;
+    }
+    
+    .left{
+        width: 20%;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+    }
+    
+    .right{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        margin-left: 20%;
+        text-align: center;
+    
+    }
+    
+    .menu{
+        width: 67%;
+        background-color: white;
+        height: 94px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        text-align: center;
+        font-size: 11px;
+        font-weight: bold;
+        margin-top: 40px;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: cursive;
+    }
+    
+    .menu:hover{
+        box-shadow: 0 0 20px white;
+    }
+    
+    .icon{
+        width: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .logout{
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 4%;
+        font-weight: bold;
+        color: white;
+        font-family: cursive;
+        cursor: pointer;
+        position: absolute;
+        bottom: 5px;
+    }
+    
+    .out{
+        width: 25px;
+        height: auto;
+    }
+    
+    .logout p{
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 14px;
+    }
+    
+    .search{
+        display: flex;
+        background-color: white;
+        margin-top: 30px;
+    }
+    
+    
+    .input{
+        width: 37%;
+        background: none;
+        outline: none;
+        font-size: 10px;
+        color: black;
+        border-radius: 20px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border: 2px solid black;
+        display: block;
+        margin-right: 15px;
+    }
+    
+    
+    .btn{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 19%;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    
+    #from{
+        margin-left: 5%;
+    }
+    
+    .right h1{
+        font-family: cursive;
+        font-size: 22px;
+    }
+
+     /*****************details****************/
+     .cover{
+        width: 89%;
+        height: 200px;
+        margin-top: 21px;
+        margin-bottom: 20px;
+    }
+
+    .details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        text-align: left;
+        font-family: cursive;
+    }
+
+    .dleft{
+        width: 50%;
+        padding-left: 8px;
+        margin-bottom: 60px;
+    }
+
+    .dright{
+        width: 50%;
+        padding-left: 8px;
+    }
+
+    .Nperson{
+        width: 56%;
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .pay{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 85%;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 2px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+        /********************add to cat********************/
+
+        #cate,#cate1,#cate2,#desc{
+            width: 53%;
+            background: none;
+            outline: none;
+            font-size: 16px;
+            font-family: cursive;
+            color: black;
+            border-radius: 20px;
+            padding: 5px;
+            padding-left: 11px;
+            padding-right: 11px;
+            border: 2px solid black;
+        }
+    
+        #desc{
+            margin-top: 20px;
+            height: 200px;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+    
+        .center{
+            margin-top: 40%;
+            text-align: center;
+        }
+    
+        #add{
+            outline: none;
+            border: none;
+            background: black;
+            color: white;
+            border-radius: 20px;
+            height: 32px;
+            cursor: pointer;
+            width: 34%;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        /*******************addroom********************/
+    .room{
+        margin-top: 68px;
+    }
+    
+    #Rnumber,#Rprice,#Scat,#Sdes,#Samenties{
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 15px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+    }
+
+    #Rnumber,#Rprice{
+        width: 30%;
+        margin-bottom: 16px;
+    }
+
+    #Scat{
+        width: 73%;
+        margin-bottom: 20px;
+    }
+
+    #Sdes{
+        width: 67%;
+        height: 172px;
+        margin-bottom: 20px;
+    }
+
+    #Samenties{
+        width: 67%;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    #image{
+        outline:none;
+        border: none;
+    }
+
+    ::-webkit-file-upload-button{
+        color:white;
+        background:black;
+        outline:none;
+        border:none;
+        height:30px;
+        width:140px;
+        border-radius:20px;
+        cursor:pointer;
+        font-family: cursive;
+        margin-bottom: 10px;
+    }
+
+    input[type='radio']{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    input[type='radio']:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    input[type='radio']:checked:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgb(78, 6, 78);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    label{
+        font-size:15px;
+    }
+
+    #addroom{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 38%;
+        font-weight: bold;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
+        /*****************grid*******************/
+
+        .grid article{
+            width: 177px;
+        }
+
+        .grid img{
+            height: 8rem;
+        }
+
+    /****************pagination*****************/
+
+    .page{
+        text-decoration: none;
+        font-size: 17px;
+        background-color: black;
+        color: white;
+        margin-left: 6px;
+        padding-right: 12px;
+        padding-left: 12px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .pagination{
+        width: 100%;
+    }
+
+    #sendpass{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 32px;
+        cursor: pointer;
+        width: 28%;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+
+}
+
+/*mobile*/
+@media screen and  (max-width:400px){
+    ::selection{
+        background-color: rgb(166, 28, 230);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color: white;
+    }
+    
+    .left{
+        width: 27%;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+    }
+    
+    .right{
+        width: 73%;
+        height: auto;
+        background-color: white;
+        margin-left: 27%;
+        text-align: center;
+    }
+    
+    .menu{
+        width: 67%;
+        background-color: white;
+        height: 69px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        text-align: center;
+        font-size: 9px;
+        font-weight: bold;
+        margin-top: 40px;
+        padding-top: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: cursive;
+    }
+    
+    .menu:hover{
+        box-shadow: 0 0 20px white;
+    }
+    
+    .icon{
+        width: 34px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .logout{
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 4%;
+        font-weight: bold;
+        color: white;
+        font-family: cursive;
+        cursor: pointer;
+        position: absolute;
+        bottom: 5px;
+    }
+    
+    .out{
+        width: 26px;
+        height: auto;
+    }
+    
+    .logout p{
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .search{
+        display: block;
+        background-color: white;
+        margin-top: 30px;
+    }
+    
+    
+    .input{
+    width: 34%;
+    background: none;
+    outline: none;
+    font-size: 9px;
+    color: black;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 2px solid black;
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 5%;
+    margin-left: 55%;
+    }
+    
+    
+    .btn{
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    height: 23px;
+    cursor: pointer;
+    width: 27%;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 59%;
+    }
+    
+    .right h1{
+        font-family: cursive;
+        font-size: 19px;
+    }
+
+       /*****************details****************/
+       .cover{
+        width: 77%;
+        height: 165px;
+        margin-top: 21px;
+        margin-bottom: 20px;
+      }
+
+    .details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        text-align: left;
+        font-family: cursive;
+    }
+
+    .dleft{
+        width: 50%;
+        padding-left: 8px;
+        margin-bottom: 60px;
+    }
+
+    .dright{
+        width: 50%;
+        padding-left: 8px;
+    }
+
+    .Nperson{
+        width: 76%;
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 11px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 20px;
+   }
+
+    .pay{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 87%;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+            /********************add to cat********************/
+
+            #cate,#cate1,#cate2,#desc{
+                width: 53%;
+                background: none;
+                outline: none;
+                font-size: 14px;
+                font-family: cursive;
+                color: black;
+                border-radius: 20px;
+                padding: 5px;
+                padding-left: 11px;
+                padding-right: 11px;
+                border: 2px solid black;
+            }
+        
+            #desc{
+                margin-top: 20px;
+                height: 200px;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        
+            .center{
+                margin-top: 40%;
+                text-align: center;
+            }
+        
+            #add{
+                outline: none;
+                border: none;
+                background: black;
+                color: white;
+                border-radius: 20px;
+                height: 30px;
+                cursor: pointer;
+                width: 52%;
+                font-family: cursive;
+                font-weight: bold;
+                font-size: 13px;
+            }
+
+       /*******************addroom********************/
+       .room{
+           margin-top: 30px;
+        }
+    
+    #Rnumber,#Rprice,#Scat,#Sdes,#Samenties{
+        background: none;
+        outline: none;
+        font-family: cursive;
+        font-size: 15px;
+        color: black;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 11px;
+        padding-right: 11px;
+        border: 2px solid black;
+    }
+
+    #Rnumber,#Rprice{
+        width: 25%;
+        margin-bottom: 16px;
+    }
+
+    #Scat{
+        width: 73%;
+        margin-bottom: 20px;
+    }
+
+    #Sdes{
+        width: 67%;
+        height: 172px;
+        margin-bottom: 20px;
+    }
+
+    #Samenties{
+        width: 67%;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    #image{
+        outline:none;
+        border: none;
+    }
+
+    ::-webkit-file-upload-button{
+        color:white;
+        background:black;
+        outline:none;
+        border:none;
+        height:30px;
+        width:90px;
+        border-radius:20px;
+        cursor:pointer;
+        font-family: cursive;
+        font-size:10px;
+        margin-bottom: 10px;
+    }
+
+    input[type='radio']{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    input[type='radio']:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    input[type='radio']:checked:after {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgb(78, 6, 78);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    label{
+        font-size:13px;
+    }
+
+    #addroom{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        cursor: pointer;
+        width: 38%;
+        font-weight: bold;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
+        /*****************grid*******************/
+
+        .grid article{
+            width: 177px;
+        }
+
+        .grid img{
+            height: 8rem;
+        }
+
+        /****************pagination*****************/
+
+        .page{
+            text-decoration: none;
+            font-size: 17px;
+            background-color: black;
+            color: white;
+            margin-left: 6px;
+            padding-right: 12px;
+            padding-left: 12px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    
+        .pagination{
+            width: 100%;
+        }
+
+        #sendpass{
+        outline: none;
+        border: none;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        height: 32px;
+        cursor: pointer;
+        width: 28%;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}

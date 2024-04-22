@@ -1,0 +1,765 @@
+
+body{
+    background-color:rgb(238, 238, 238);
+}
+
+
+/*laptop*/
+@media screen and  (min-width:800px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cat1{
+    display: none;
+}
+
+#hdr1{
+    position: absolute;
+    top: 0;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+}
+
+#hdr1 .cov{
+width: 100%;
+height: 100%;
+background-color: #0000001f;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    background-color: black;
+    display:inline-block;
+}
+
+.cat{
+    float: right;
+    color: white;
+    list-style: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 19px;
+    display:flex;
+}
+
+.cat .mn{
+    margin-top: 13px;
+    margin-right: 34px;
+    padding: 3px;
+    transition: all .5s cubic-bezier(0.14, 1.41, 0.41, -0.21);
+}
+
+.cat .mn:hover{
+    color: turquoise;
+    cursor: pointer;
+    border-bottom: 3px solid turquoise;
+}
+
+.menu{
+    display: none;
+}
+
+.svg1{
+    display: inline;
+    width:210px;
+    height:95px;
+    cursor: pointer;
+}
+
+.welcoming{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 43%;
+    color: white;
+}
+
+.welcoming h1{
+    font-size: 41px;
+}
+
+.welcoming h4{
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 16%;
+    margin-top: 4px;
+}
+
+.explore{
+    cursor: pointer;
+    background-color: #000000c2;
+    width: 119px;
+    height: 27px;
+    border-radius: 14px;
+    padding-left: 22px;
+    padding-top: 6px;
+    margin-top: 11px;
+    margin-left: 36px;
+}
+
+.explore p{
+    cursor: pointer;
+}
+
+#about{
+    margin-top: 662px;
+}
+
+#about h1{
+    color: black;
+    margin-left: 22px;
+    text-shadow: 0 0 15px black;
+}
+
+#about div{
+    width: 40%;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 22px;
+    color: black;
+    text-shadow: 0 0 2px black;
+}
+
+.aim{
+    margin-right: 5%;
+    width: 43%;
+    height: auto;
+    float: right;
+    margin-top: -619px;
+    box-shadow: 0 0 10px black;
+}
+
+.contact{
+    background-color: rgb(16 3 29);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 6%;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 30px 40px;
+    align-content: center;
+    display: inline-block;
+    margin-top: 6%;
+    font-family: sans-serif;
+    box-shadow: 0 0 15px black;
+}
+
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color: white;
+    font-weight: bold;
+}
+
+.txtb{
+    border-bottom: 3px solid #a68ac2;
+    margin: 8px 0;
+    padding: 12px 18px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+
+.send{
+    display: inline-block;
+    background: #a68ac2;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+
+    footer h3{
+        color: snow;
+        font-size: 17px;
+        text-shadow: 0 0 5px black;
+    }
+
+    footer mark{
+        color: snow;
+        background-color: rgb(0, 255, 170);
+    }
+
+    footer{
+        text-align: center;
+        width: 100%;
+        height: 34px;
+        padding-top: 14px;
+        background-color: black;
+    }
+
+}
+
+/*tablet*/
+@media screen and  (min-width:401px) and (max-width:799px){
+    ::selection{
+        background-color: rgba(95, 52, 105, 0.651);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cat1{
+        position: absolute;
+        list-style: none;
+        margin-left: auto;
+        margin-top: 0;
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        background-color: #04010f;
+        width: 50%;
+        padding-top: 27px;
+        top: 0;
+    }
+
+    .cat1 img{
+        width: 20px;
+        height: auto;
+        margin-left: 88%;
+        cursor: pointer;
+        top: 10px;
+    }
+
+    .cat1 li{
+        height: 41px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 43px;
+        padding-top: 22px;
+     }
+     .cat1 li:hover{
+         background-color: rgba(0, 0, 0, 0.425);
+     }
+
+    
+    #hdr1{
+        position: absolute;
+        top: 0;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 444px;
+    }
+    
+    #hdr1 .cov{
+    width: 100%;
+    height: 100%;
+    background-color: #c300ff1f;
+    }
+    
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 7%;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    .cat{
+        float: right;
+        color: white;
+        list-style: none;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 19px;
+        display:flex;
+    }
+    
+    .cat .mn{
+        display: none;
+    }
+
+    .mn{
+        margin-top: 13px;
+        margin-right: 34px;
+        padding: 3px;
+        transition: all .5s cubic-bezier(0.14, 1.41, 0.41, -0.21);
+    }
+    
+    .mn:hover{
+        color: turquoise;
+        cursor: pointer;
+        border-bottom: 3px solid turquoise;
+    }
+    
+    .menu{
+        display: block;
+    }
+
+    .menu img{
+    width: 37px;
+    height: 37px;
+    margin: 6px;
+    cursor: pointer;
+    }
+    
+    .svg1{
+        display: inline;
+        width: 158px;
+        height: 79px;
+        cursor: pointer;
+    }
+    
+    .welcoming{
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 31%;
+        color: white;
+    }
+    
+    .welcoming h1{
+        font-size: 33px;
+    }
+    
+    .welcoming h4{
+        font-family: cursive;
+        font-size: 12px;
+        margin-left: 16%;
+        margin-top: 4px;
+    }
+    
+    .explore{
+        cursor: pointer;
+        background-color: #000000b8;
+        width: 95px;
+        height: 19px;
+        border-radius: 14px;
+        padding-left: 16px;
+        padding-top: 5px;
+        margin-top: 11px;
+        margin-left: 31px;
+    }
+    
+    .explore p{
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+    #about{
+        margin-top: 464px;
+    }
+    
+    #about h1{
+        color: black;
+        margin-left: 7px;
+        text-shadow: 0 0 15px black;
+    }
+    
+    #about div{
+        width: 94%;
+        font-size: 20px;
+        padding: 14px;
+        margin-left: -3px;
+        color: black;
+        text-shadow: 0 0 2px black;
+    }
+    
+    .aim{
+        display: none;
+    }
+
+    .contact{
+        background-color: rgb(12 2 23);
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        padding-top: 10px;
+        padding-bottom: 6%;
+    }
+    
+    .contact-form{
+        width: 55%;
+        max-width: 600px;
+        background-color: black;
+        text-align: center;
+        padding: 30px 40px;
+        align-content: center;
+        display: inline-block;
+        margin-top: 6%;
+        font-family: sans-serif;
+        box-shadow: 0 0 15px black;
+    }
+    
+    .contact-form h1{
+        margin-top: 0;
+        font-weight: 200;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 8px 0;
+        padding: 7px 17px;
+    }
+    
+    .txtb label{
+        display: block;
+        text-align: left;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .txtb input,.txtb textarea{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 16px;
+        margin-top: 6px;
+        color: white;
+    }
+    
+    .send{
+        display: inline-block;
+        background: #a68ac2;
+        padding: 14px 0;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 100%;
+        outline: none;
+        border: 0;
+    }
+
+    footer h3{
+        color: snow;
+        font-size: 13px;
+        text-shadow: 0 0 5px black;
+    }
+
+    footer mark{
+        color: snow;
+        background-color: rgb(0, 255, 170);
+    }
+
+    footer{
+        text-align: center;
+        width: 100%;
+        height: 24px;
+        padding-top: 11px;
+        background-color: black;
+    }
+
+}
+
+/*mobile*/
+@media screen and  (max-width:400px){
+    ::selection{
+        background-color: rgb(166, 28, 230);
+        color: white;
+    }
+    body::-webkit-scrollbar {
+        width: 0px;               
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cat1{
+        position: absolute;
+        list-style: none;
+        margin-left: auto;
+        margin-top: 0;
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        background-color: #04010f;
+        width: 100%;
+        padding-top: 27px;
+        top: 0;
+    }
+
+    .cat1 img{
+        width: 20px;
+        height: auto;
+        margin-left: 88%;
+        cursor: pointer;
+        top: 10px;
+    }
+
+    .cat1 li{
+        height: 41px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 30px;
+        padding-top: 22px;
+     }
+     .cat1 li:hover{
+         background-color: rgba(0, 0, 0, 0.425);
+     }
+    
+    #hdr1{
+        position: absolute;
+        top: 0;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 207px;
+    }
+    
+    #hdr1 .cov{
+       position: absolute;
+       top: 0;
+       background-image: url(../images/background.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: 207px;
+    }
+    
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 6%;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    .cat{
+        float: right;
+        color: white;
+        list-style: none;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 19px;
+        display:flex;
+    }
+    
+    .cat .mn{
+        display: none;
+    }
+
+    .mn{
+        margin-top: 13px;
+        margin-right: 34px;
+        padding: 3px;
+        transition: all .5s cubic-bezier(0.14, 1.41, 0.41, -0.21);
+    }
+    
+    .mn:hover{
+        color: turquoise;
+        cursor: pointer;
+        border-bottom: 3px solid turquoise;
+    }
+    
+    .menu{
+        display: block;
+    }
+
+    .menu img{
+        width: 30px;
+        height: 29px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+    .svg1{
+        display: inline;
+        width: 121px;
+        height: 64px;
+        cursor: pointer
+    }
+    
+    .welcoming{
+        position: absolute;
+        margin-top: 26%;
+        margin-left: 30%;
+        color: white;
+    }
+    
+    .welcoming h1{
+        font-size: 25px;
+    }
+    
+    .welcoming h4{
+        font-family: cursive;
+        font-size: 9px;
+        margin-left: 14%;
+        margin-top: 4px;
+    }
+    
+    .explore{
+        cursor: pointer;
+        background-color: #000000b8;
+        width: 77px;
+        height: 19px;
+        border-radius: 14px;
+        padding-left: 12px;
+        padding-top: 5px;
+        margin-top: 11px;
+        margin-left: 18px;
+    }
+    
+    .explore p{
+        cursor: pointer;
+        font-size: 11px;
+    }
+
+    #about{
+        margin-top: 219px;
+    }
+    
+    #about h1{
+        color: black;
+        margin-left: 5px;
+        text-shadow: 0 0 15px black;
+    }
+    
+    #about div{
+        width: 94%;
+        font-size: 20px;
+        padding: 14px;
+        margin-left: -10px;
+        color: black;
+        text-shadow: 0 0 2px black;
+    }
+    
+    .aim{
+        display: none;
+    }
+
+    .contact{
+        background-color: rgb(12 2 23);
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        padding-top: 10px;
+        padding-bottom: 6%;
+    }
+    
+    .contact-form{
+        width: 55%;
+        max-width: 600px;
+        background-color: black;
+        text-align: center;
+        padding: 30px 40px;
+        align-content: center;
+        display: inline-block;
+        margin-top: 6%;
+        font-family: sans-serif;
+        box-shadow: 0 0 37px black;
+    }
+    
+    .contact-form h1{
+        margin-top: 0;
+        font-weight: 200;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .txtb{
+        border-bottom: 3px solid #a68ac2;
+        margin: 4px 0;
+        padding: 2px 3px;
+    }
+    
+    .txtb label{
+        display: block;
+        text-align: left;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    
+    .txtb input,.txtb textarea{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 14px;
+        margin-top: 6px;
+        color: white;
+    }
+    
+    .send{
+        display: inline-block;
+        background: #a68ac2;
+        padding: 8px 0;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 100%;
+        outline: none;
+        border: 0;
+    }
+
+    footer h3{
+        color: snow;
+        font-size: 10px;
+        text-shadow: 0 0 5px black;
+    }
+
+    footer mark{
+        color: snow;
+        background-color: rgb(0, 255, 170);
+    }
+
+    footer{
+        text-align: center;
+        width: 100%;
+        height: 19px;
+        padding-top: 8px;
+        background-color: black;
+    }
+    
+
+}
